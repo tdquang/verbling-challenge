@@ -1,0 +1,92 @@
+body {
+  font-family: Lucida Console, Monaco5, monospace;
+  height: 100vh;
+}
+
+.title{
+  font-size: 35px;
+  text-align: center;
+}
+
+.challenge-section{
+  margin: auto;
+  width: 400px;
+}
+
+.scroll-search-list{
+  margin-top: 50px;
+}
+
+#search-bar{
+  border-style: solid;
+  font-size: 22px;
+  padding-left: 10px;
+  max-width: 400px;
+  width: 390px;
+  margin-bottom: 1px;
+}
+
+#search-bar:focus{
+  outline: none;
+}
+
+.item-area{
+  border-style: solid;
+  width: 400px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.button-area{
+  margin-top: 5px;
+}
+
+.list-item{
+  border-bottom: solid;
+  position: relative;
+  min-height: 19px;
+  padding: 14px;
+  padding-right: 23px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+.downarrow-icon{
+  width: 30px;
+	height: 30px;
+  overflow:hidden;
+  position: absolute;
+  float: right;
+  top: 4px;
+  right: 4px;
+  content: url("./../img/arrow-down.png");
+}
+
+.uparrow-icon{
+  width: 30px;
+	height: 30px;
+  overflow:hidden;
+  position: absolute;
+  float: right;
+  top: 4px;
+  right: 4px;
+  content: url("./../img/arrow-up.png");
+}
+
+
+
+.global-button{
+  font-size: 12px;
+  text-align: center;
+  border: 2px solid black;
+  height: 20px;
+  width: 80px;
+  cursor: pointer;
+  padding-left: 6px;
+  padding-right: 3px;
+  padding-top: 9px;
+  box-shadow: 2px 2px 1px #888888;
+  margin-left: 6px;
+  display: inline-block;
+}
