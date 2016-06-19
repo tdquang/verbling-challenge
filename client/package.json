@@ -10,12 +10,12 @@
   "license": "MIT",
   "dependencies": {
     "react": "^0.14.0",
-    "react-dom": "^0.14.0",
-    "react-text-truncate": "^0.7.0"
+    "react-dom": "^0.14.0"
   },
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-loader": "^5.1.0",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "react-text-truncate": "^0.7.0"
   }
 }
